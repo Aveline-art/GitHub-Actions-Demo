@@ -1,0 +1,9 @@
+name: Hello World Demo
+on: 
+  pull-request:
+    types: [opened, edited]
+jobs:
+  Hello-World:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello world!"
