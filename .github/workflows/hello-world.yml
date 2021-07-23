@@ -5,4 +5,4 @@ jobs:
   Hello-World:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Goodbye world!"
+      - run: echo "Hello world!"
