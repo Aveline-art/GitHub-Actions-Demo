@@ -1,0 +1,12 @@
+name: Libraries
+on: 
+  workflow_dispatch
+jobs:
+  Running-Scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v4
+        with:
+          script: |
+            console.log('hello world');
+
