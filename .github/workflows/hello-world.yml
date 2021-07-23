@@ -1,5 +1,7 @@
 name: Hello World Demo
-on: workflow_dispatch
+on: 
+  pull-request:
+    types: [opened, edited]
 jobs:
   Hello-World:
     runs-on: ubuntu-latest
